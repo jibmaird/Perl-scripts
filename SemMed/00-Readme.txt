@@ -1,0 +1,8 @@
+- Exper06292016: initial evaluation over semmed gold standard
+- Exper07222016: extracted sentences with "TREATS" relation and "clinical drug" semantic type in argument
+- Exper08022016: extracted sentences with relations and drug "linezolid" to get data on defect
+- Exper09162016: exploring the effect of co-occurrence rules using testbiorels
+- Exper10042016 (?): exploring the effect of co-occurrence rules using DTCRunner
+- Exper10102016: find drugs missed by our annotators
+- test06222017: evaluate NonPTM over SemMed ("stimulate" relation)
+- eval_entities: evaluate our entity annotators using SemMed as GT

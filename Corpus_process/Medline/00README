@@ -1,0 +1,4 @@
+- eval_chem_rels: manual evaluation of WDD for chemical relations in pubmed docs
+- eval_gene_condition: manual evaluation of WDD for gene-condition relations in pubmed docs
+- tfidf: top tf-idf scores over medline
+- samples: extract samples

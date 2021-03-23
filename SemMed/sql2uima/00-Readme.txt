@@ -1,0 +1,5 @@
+- csv2uima_DC.pl: drug and condition entities only
+- csv2uima_drug_general.pl: shared with Dan for the drug annotation 
+- csv2uima.pl_drug.pl: drug entity only
+- csv2uima_DTC.pl: full mapping of DTCs
+- extract_target_rels.pl

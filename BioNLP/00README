@@ -1,0 +1,13 @@
+Eval:
+It relies on C:\Users\IBM_ADMIN\ws02132017\wdd-annotator-biorels\src\test\java\com\ibm\wdd\annotator\SemMedEvaluator.java
+
+- missing_gt_entities.pl: find whether predictions (in brat) are missing GT annotations
+- missing_gt_entities_in_events.pl: find missing entities occurring in events only
+- add_entities_to_eval.pl: postprocess output of SemMedEvaluator.java to add entities
+- remove_negated.pl: remove entities modified with NEGATED from GT
+- filter_gt.pl, annotation_file2.pl: extract only PosReg and NegReg
+- false_positives_entity.pl, false_positives_entity_overlap.pl, false_negatives_entity_overlap.pl: obtain lists of examples for manual check
+
+WKS:
+- brat2uima.pl: convert bionlp into UIMA for WKS experiment
+- BioNLP_exper.pl: run brat2uima for WKS experiment
